@@ -1,0 +1,65 @@
+/* DARK MODE IMPROVEMENT */
+body.bg-dark {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.bg-dark .hero {
+  background: linear-gradient(135deg, #1e1e1e, #2c2c2c);
+}
+
+body.bg-dark .hero h1 {
+  color: #90caf9;
+}
+
+body.bg-dark .hero p {
+  color: #cccccc;
+}
+
+body.bg-dark .table thead {
+  background-color: #1f1f1f;
+}
+
+body.bg-dark .table-primary {
+  background-color: #263238 !important;
+  color: #ffffff;
+}
+
+body.bg-dark .table-striped>tbody>tr:nth-of-type(odd) {
+  background-color: #1e1e1e;
+}
+
+body.bg-dark .table-hover>tbody>tr:hover {
+  background-color: #333333;
+}
+
+body.bg-dark .table td,
+body.bg-dark .table th {
+  color: #e0e0e0;
+}
+
+body.bg-dark .btn-outline-primary {
+  color: #90caf9;
+  border-color: #90caf9;
+}
+
+body.bg-dark .btn-outline-success {
+  color: #81c784;
+  border-color: #81c784;
+}
+
+body.bg-dark .btn-outline-secondary {
+  color: #b0bec5;
+  border-color: #b0bec5;
+}
+
+body.bg-dark footer {
+  background-color: #1e1e1e;
+  color: #ccc;
+}
+
+/* Mode Toggle Icon contrast */
+body.bg-dark .mode-toggle {
+  background-color: #333;
+  color: #fff;
+}

@@ -1,0 +1,166 @@
+/* =========================
+   HERO SECTION
+========================= */
+.hero {
+  padding: 60px 0;
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+  text-align: center;
+}
+
+.hero h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #0d47a1;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+body.bg-dark .hero {
+  background: linear-gradient(135deg, #1e1e1e, #2c2c2c);
+}
+
+body.bg-dark .hero h1 {
+  color: #90caf9;
+}
+
+body.bg-dark .hero p {
+  color: #cccccc;
+}
+
+/* =========================
+   FILTER BUTTONS
+========================= */
+.filter-buttons {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.filter-buttons .btn {
+  margin: 5px;
+}
+
+body.bg-dark .btn-outline-primary {
+  color: #90caf9;
+  border-color: #90caf9;
+}
+
+body.bg-dark .btn-outline-success {
+  color: #81c784;
+  border-color: #81c784;
+}
+
+body.bg-dark .btn-outline-secondary {
+  color: #b0bec5;
+  border-color: #b0bec5;
+}
+
+/* =========================
+   TABLE
+========================= */
+.table-container {
+  overflow-x: auto;
+}
+
+.table th,
+.table td {
+  vertical-align: middle !important;
+  font-size: 0.95rem;
+}
+
+body.bg-dark .table,
+body.bg-dark .table td,
+body.bg-dark .table th {
+  color: #e0e0e0;
+}
+
+body.bg-dark .table thead,
+body.bg-dark .table-dark th {
+  background-color: #1f1f1f !important;
+  color: #fff !important;
+}
+
+body.bg-dark .table-primary {
+  background-color: #37474f !important;
+  color: #ffffff !important;
+}
+
+body.bg-dark .table-striped tbody tr:nth-of-type(even) {
+  background-color: #1c1c1c;
+}
+
+body.bg-dark .table-striped tbody tr:nth-of-type(odd) {
+  background-color: #262626;
+}
+
+body.bg-dark .table-hover tbody tr:hover {
+  background-color: #333333;
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin-top: 50px;
+  font-size: 0.9rem;
+}
+
+body.bg-dark footer {
+  background-color: #1e1e1e;
+  color: #ccc;
+}
+
+/* =========================
+   MODE TOGGLE BUTTON
+========================= */
+.mode-toggle {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 1000;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body.bg-dark .mode-toggle {
+  background-color: #333;
+  color: #fff;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .table th,
+  .table td {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .mode-toggle {
+    width: 40px;
+    height: 40px;
+  }
+
+  .hero {
+    padding: 40px 0;
+  }
+}

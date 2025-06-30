@@ -1,0 +1,102 @@
+/* Hero Section */
+.hero {
+  padding: 60px 0;
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+  text-align: center;
+}
+
+.hero h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #0d47a1;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+/* Filter Buttons */
+.filter-buttons {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.filter-buttons button {
+  margin: 5px;
+}
+
+/* Table Section */
+.table-container {
+  overflow-x: auto;
+}
+
+.table th,
+.table td {
+  vertical-align: middle !important;
+  font-size: 0.95rem;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin-top: 50px;
+  font-size: 0.9rem;
+}
+
+/* Dark Mode */
+body.bg-dark .table,
+body.bg-dark .table thead,
+body.bg-dark .table tbody,
+body.bg-dark .table td,
+body.bg-dark .table th {
+  color: #fff;
+}
+
+body.bg-dark footer {
+  background-color: #212529;
+  color: #fff;
+}
+
+/* Mode Toggle */
+.mode-toggle {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 1000;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive Text */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .table th,
+  .table td {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .mode-toggle {
+    width: 40px;
+    height: 40px;
+  }
+
+  .hero {
+    padding: 40px 0;
+  }
+}
