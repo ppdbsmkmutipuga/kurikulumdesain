@@ -14,24 +14,23 @@
 </head>
 
 <body>
-    <button class="btn btn-outline-light mode-toggle position-fixed top-0 end-0 m-3" onclick="toggleMode()"
-        title="Mode Gelap/Terang">
-        <i class="bi bi-moon-stars-fill"></i>
-    </button>
-
-
-    <!-- Navbar -->
+      <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top shadow-sm">
         <div class="container">
+            <!-- Logo dan nama -->
             <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
                 <img src="images/logo.png" alt="Logo SMK Mutipuga" height="32" class="me-2">
                 <span class="d-none d-sm-inline">SMK Muhammadiyah 3 Pucang Gading</span>
                 <span class="d-inline d-sm-none">SMK MUTIPUGA</span>
             </a>
+
+            <!-- Toggle tombol (mobile) -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
                 aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
+            <!-- Isi Menu -->
             <div class="collapse navbar-collapse" id="navMenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="https://ppdbsmkmutipuga.github.io">Beranda</a></li>
@@ -39,10 +38,15 @@
                     <li class="nav-item"><a class="nav-link" href="#ekskul">Ekstrakurikuler</a></li>
                     <li class="nav-item"><a class="nav-link" href="#pendaftaran">Pendaftaran</a></li>
                 </ul>
+
+                <!-- Tombol mode gelap di kanan -->
+                <button class="btn btn-outline-light ms-3" onclick="toggleMode()" title="Mode Gelap/Terang">
+                    <i class="bi bi-moon-stars-fill"></i>
+                </button>
             </div>
         </div>
     </nav>
-
+    
     <!-- Hero Section -->
     <section class="hero" data-aos="fade-down">
         <div class="container">
